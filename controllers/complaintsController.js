@@ -1,7 +1,6 @@
 const db = require('../db/db');
-const twilio = require('twilio');
-require('dotenv').config()
-
+const Twilio = require('twilio');
+require('dotenv').config();
 // Twilio configuration
 const accountSid = process.env.ACCOUNT_SID; // Your Account SID
 const authToken = process.env.AUTH_TOKEN; // Your Auth Token
