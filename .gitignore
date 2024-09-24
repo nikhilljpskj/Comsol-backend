@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+
+# Logs
+*.log
+logs/
+*.log.*
+logs/*
+
+# Database files (if using SQLite or similar)
+*.sqlite
+*.sqlite3
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Coverage reports
+coverage/
